@@ -19,4 +19,10 @@ public class Employee
     {
         return empSal;
     }
+
+    void printer()
+    {
+        System.out.println(this.empNum);
+        System.out.println(this.empSal);
+    }
 }
